@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "59304297665",
+    "project_id": "my-applicationverfifysms",
+    "storage_bucket": "my-applicationverfifysms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59304297665:android:5df3831acea02d63c30040",
+        "android_client_info": {
+          "package_name": "com.pepivsky.verification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59304297665-dhn5pbc5aprk2mfthb6m6bst01iti4p9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiIxZkPdGMXukJCle0_yF03OVt7gSIxQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59304297665-dhn5pbc5aprk2mfthb6m6bst01iti4p9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
