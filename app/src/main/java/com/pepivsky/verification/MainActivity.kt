@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var edtNum5: EditText
     lateinit var edtNum6: EditText
     lateinit var btnEnviarCodigo: Button
+    lateinit var btnValidar: Button
 
     lateinit var auth: FirebaseAuth
     lateinit var storedVerificationId: String
@@ -95,6 +96,21 @@ class MainActivity : AppCompatActivity() {
         edtNum5 = findViewById(R.id.edtNum5)
         edtNum6 = findViewById(R.id.edtNum6)
         btnEnviarCodigo = findViewById(R.id.btnEnviar)
+        btnValidar = findViewById(R.id.btnValidar)
+
+        btnValidar.setOnClickListener {
+            if (edtNum1.text.toString().trim().isEmpty()
+                || edtNum2.text.toString().trim().isEmpty()
+                || edtNum3.text.toString().trim().isEmpty()
+                || edtNum4.text.toString().trim().isEmpty()
+                || edtNum5.text.toString().trim().isEmpty()
+                || edtNum6.text.toString().trim().isEmpty()
+            ) {
+                Toast.makeText(this, "Codigo invalido", Toast.LENGTH_SHORT)
+            } else {
+
+            }
+        }
 
         btnEnviarCodigo.setOnClickListener {
             sendVerificationcode("+527731711423")

@@ -10,6 +10,7 @@
         android:id="@+id/cardView"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        app:cardCornerRadius="10dp"
         app:layout_constraintBottom_toTopOf="@+id/space"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintVertical_weight="1.5"
@@ -180,7 +181,7 @@
         android:id="@+id/space"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btnValidar"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
 
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -189,11 +190,11 @@
         />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnValidar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Verificar"
+        android:text="Validar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintHorizontal_bias="0.5"
